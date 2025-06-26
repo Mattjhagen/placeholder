@@ -1,0 +1,43 @@
+.appcontainer {
+  display: flex;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+.nav {
+  min-width: 200px;
+  background: #fafbfc;
+  border-right: 1px solid #ececec;
+  padding: 1.5rem 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin: 1rem 0;
+}
+
+.nav a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  display: block;
+  transition: background .2s;
+}
+
+.nav a:hover,
+.nav .active {
+  background: #e8f0fe;
+  color: #174ea6;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  background: #fff;
+}
